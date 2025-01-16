@@ -5,7 +5,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "*",
+        origin: "https://zap-chat-beta.vercel.app",
         methods: ["POST", "GET"]
     }
 });

@@ -1,5 +1,5 @@
 
 export const allowedOrigin =[
     "http://localhost:3000",
-    "https://zap-chat-api.vercel.app/"
+    "https://zap-chat-beta.vercel.app"
  ]
